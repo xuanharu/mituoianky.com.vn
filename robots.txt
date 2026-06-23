@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mituoianky.com.vn/sitemap.xml
+
+*   **File `sitemap.xml`:** Bản đồ website. Tạo file tên `sitemap.xml` với nội dung cơ bản:
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+       <url>
+          <loc>https://mituoianky.com.vn/</loc>
+          <lastmod>2026-06-23</lastmod>
+          <changefreq>daily</changefreq>
+          <priority>1.0</priority>
+       </url>
+    </urlset>
