@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng So Sánh Font Chữ Mở Rộng - Mì Tươi An Ký</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Nhúng các font từ Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;1,400&family=Noto+Serif+Vietnamese:wght@600;700;900&family=Playfair+Display:ital,wght@0,700;0,900;1,600&family=Saira+Semi+Condensed:wght@600;700&family=Inter:wght@400;600;700;900&family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Lexend+Deca:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Bộ Gốc Hiện Tại */
+        
+        .font-current-title {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .font-current-body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Các Bộ Đã Đề Xuất Trước Đó */
+        
+        .font-combo-1-title {
+            font-family: 'Playfair Display', Georgia, serif;
+        }
+        
+        .font-combo-1-body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+        
+        .font-combo-2-title {
+            font-family: 'Noto Serif Vietnamese', serif;
+        }
+        
+        .font-combo-2-body {
+            font-family: 'Noto Serif Vietnamese', serif;
+        }
+        
+        .font-combo-3-title {
+            font-family: 'Saira Semi Condensed', sans-serif;
+        }
+        
+        .font-combo-3-body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+        /* 2 Bộ Bổ Sung Mới */
+        
+        .font-combo-4-title {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        
+        .font-combo-4-body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+        
+        .font-combo-5-title {
+            font-family: 'Lexend Deca', sans-serif;
+        }
+        
+        .font-combo-5-body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-[#FDFBF7] text-[#2C2C2C] min-h-screen py-10 px-4 sm:px-6 lg:px-8">
+
+    <div class="max-w-4xl mx-auto space-y-12">
+
+        <!-- TIÊU ĐỀ TRANG TEST -->
+        <header class="border-b border-gray-200 pb-6 text-center">
+            <h1 class="text-3xl font-bold text-[#8B0000]">BẢNG ĐỐI CHIẾU & THỬ NGHIỆM FONT CHỮ AN KÝ</h1>
+            <p class="text-gray-500 mt-2 text-sm">Bổ sung font Inter hiện tại và các phương án cách điệu Á Đông dễ đọc.</p>
+        </header>
+
+        <!-- MỐC ĐỐI CHIẾU: FONT INTER HIỆN TẠI -->
+        <section class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200">
+            <div class="mb-4 bg-gray-600 text-white font-bold px-3 py-1 rounded text-xs inline-block">
+                MỐC ĐỐI CHIẾU: FONT INTER HIỆN TẠI (Mặc định / Hiện đại)
+            </div>
+            <div class="space-y-4">
+                <h1 class="font-current-title text-4xl font-black">h1. Mì Tươi Gia Truyền An Ký</h1>
+                <h2 class="font-current-title text-2xl font-bold text-[#8B0000]">h2. Vỏ Bánh Hoành Thánh & Sủi Cảo</h2>
+                <h3 class="font-current-title text-lg font-semibold text-gray-700">h3. Quy trình sản xuất khép kín, làm mới mỗi ngày</h3>
+                <p class="font-current-body text-base text-gray-600 leading-relaxed">
+                    <strong>Văn bản thường:</strong> Sợi mì dai mềm, giòn nhẹ, thơm mùi trứng đặc trưng, không sử dụng chất bảo quản hay phẩm màu độc hại. Giao sỉ và lẻ nhanh chóng trong ngày tại khu vực TP.HCM. Luộc trong nước sôi 100°C đúng 60 giây
+                    để đạt độ ngon hoàn hảo nhất.
+                </p>
+            </div>
+        </section>
+
+        <!-- BỘ FONT 1 -->
+        <section class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <div class="mb-4 bg-red-50 text-[#8B0000] font-bold px-3 py-1 rounded text-xs inline-block">
+                BỘ 1: HOÀI CỔ / SANG TRỌNG (Playfair Display + Be Vietnam Pro)
+            </div>
+            <div class="space-y-4">
+                <h1 class="font-combo-1-title text-4xl font-black">h1. Mì Tươi Gia Truyền An Ký</h1>
+                <h2 class="font-combo-1-title text-2xl font-bold text-[#8B0000]">h2. Vỏ Bánh Hoành Thánh & Sủi Cảo</h2>
+                <h3 class="font-combo-1-title text-lg font-semibold italic text-gray-700">h3. Quy trình sản xuất khép kín, làm mới mỗi ngày</h3>
+                <p class="font-combo-1-body text-base text-gray-600 leading-relaxed">
+                    <strong>Văn bản thường:</strong> Sợi mì dai mềm, giòn nhẹ, thơm mùi trứng đặc trưng, không sử dụng chất bảo quản hay phẩm màu độc hại. Giao sỉ và lẻ nhanh chóng trong ngày tại khu vực TP.HCM.
+                </p>
+            </div>
+        </section>
+
+        <!-- BỘ FONT 2 -->
+        <section class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <div class="mb-4 bg-amber-50 text-amber-800 font-bold px-3 py-1 rounded text-xs inline-block">
+                BỘ 2: ĐẬM CHẤT ĐÔNG Á / THƯ PHÁP (Noto Serif Vietnamese)
+            </div>
+            <div class="space-y-4">
+                <h1 class="font-combo-2-title text-4xl font-black">h1. Mì Tươi Gia Truyền An Ký</h1>
+                <h2 class="font-combo-2-title text-2xl font-bold text-[#8B0000]">h2. Vỏ Bánh Hoành Thánh & Sủi Cảo</h2>
+                <h3 class="font-combo-2-title text-lg font-semibold text-gray-700">h3. Quy trình sản xuất khép kín, làm mới mỗi ngày</h3>
+                <p class="font-combo-2-body text-base text-gray-600 leading-relaxed">
+                    <strong>Văn bản thường:</strong> Sợi mì dai mềm, giòn nhẹ, thơm mùi trứng đặc trưng, không sử dụng chất bảo quản hay phẩm màu độc hại. Giao sỉ và lẻ nhanh chóng trong ngày tại khu vực TP.HCM.
+                </p>
+            </div>
+        </section>
+
+        <!-- BỘ FONT 3 -->
+        <section class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <div class="mb-4 bg-blue-50 text-blue-800 font-bold px-3 py-1 rounded text-xs inline-block">
+                BỘ 3: HIỆN ĐẠI / CỨNG CÁP (Saira Semi Condensed)
+            </div>
+            <div class="space-y-4">
+                <h1 class="font-combo-3-title text-4xl font-bold uppercase tracking-wide">h1. Mì Tươi Gia Truyền An Ký</h1>
+                <h2 class="font-combo-3-title text-2xl font-bold text-[#8B0000] uppercase">h2. Vỏ Bánh Hoành Thánh & Sủi Cảo</h2>
+                <p class="font-combo-3-body text-base text-gray-600 leading-relaxed">
+                    <strong>Văn bản thường:</strong> Sợi mì dai mềm, giòn nhẹ, thơm mùi trứng đặc trưng, không sử dụng chất bảo quản hay phẩm màu độc hại. Giao sỉ và lẻ nhanh chóng trong ngày tại khu vực TP.HCM.
+                </p>
+            </div>
+        </section>
+
+        <!-- BỘ FONT 4 (MỚI) -->
+        <section class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <div class="mb-4 bg-emerald-50 text-emerald-800 font-bold px-3 py-1 rounded text-xs inline-block">
+                BỘ 4: TỰ NHIÊN / THANH LỊCH KIỂU MỘC BẢN (Cormorant Garamond)
+            </div>
+            <div class="space-y-4">
+                <h1 class="font-combo-4-title text-4xl font-bold italic">h1. Mì Tươi Gia Truyền An Ký</h1>
+                <h2 class="font-combo-4-title text-2xl font-bold text-[#8B0000]">h2. Vỏ Bánh Hoành Thánh & Sủi Cảo</h2>
+                <h3 class="font-combo-4-title text-lg font-semibold text-gray-700 italic">h3. Quy trình sản xuất khép kín, làm mới mỗi ngày</h3>
+                <p class="font-combo-5-body text-base text-gray-600 leading-relaxed">
+                    <strong>Văn bản thường (Sử dụng Inter kết hợp):</strong> Sợi mì dai mềm, giòn nhẹ, thơm mùi trứng đặc trưng, không sử dụng chất bảo quản hay phẩm màu độc hại. Giao sỉ và lẻ nhanh chóng trong ngày tại khu vực TP.HCM. Luộc trong nước
+                    sôi 100°C đúng 60 giây để đạt độ ngon hoàn hảo nhất.
+                </p>
+            </div>
+        </section>
+
+        <!-- BỘ FONT 5 (MỚI) -->
+        <section class="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
+            <div class="mb-4 bg-purple-50 text-purple-800 font-bold px-3 py-1 rounded text-xs inline-block">
+                BỘ 5: PHONG CÁCH BIỂN HIỆU TIỆM MÌ KHU CHỢ LỚN (Lexend Deca)
+            </div>
+            <div class="space-y-4">
+                <h1 class="font-combo-5-title text-3xl font-extrabold uppercase tracking-tight">h1. Mì Tươi Gia Truyền An Ký</h1>
+                <h2 class="font-combo-5-title text-xl font-bold text-[#8B0000] uppercase tracking-wide">h2. Vỏ Bánh Hoành Thánh & Sủi Cảo</h2>
+                <h3 class="font-combo-5-title text-base font-semibold text-gray-600">h3. Quy trình sản xuất khép kín, làm mới mỗi ngày</h3>
+                <p class="font-combo-5-body text-base text-gray-600 leading-relaxed">
+                    <strong>Văn bản thường (Sử dụng Inter kết hợp):</strong> Sợi mì dai mềm, giòn nhẹ, thơm mùi trứng đặc trưng, không sử dụng chất bảo quản hay phẩm màu độc hại. Giao sỉ và lẻ nhanh chóng trong ngày tại khu vực TP.HCM. Luộc trong nước
+                    sôi 100°C đúng 60 giây để đạt độ ngon hoàn hảo nhất.
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>
